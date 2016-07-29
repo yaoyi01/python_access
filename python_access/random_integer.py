@@ -16,3 +16,5 @@ for n in range(1, 10):
     grandmac += randmac
     grandmac += "\n"
 print >> randmac_txt, grandmac
+randmac_txt.close()
+
